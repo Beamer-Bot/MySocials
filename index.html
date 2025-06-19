@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jeff's Socials</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1a1a1a, #292929);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    img.pfp {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 4px solid #00FFFF;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .socials {
+      display: flex;
+      gap: 20px;
+    }
+    .socials a img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+    }
+    .socials a img:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <img class="pfp" src="your-pfp.png" alt="Profile Picture" />
+  <h1>Jeff</h1>
+  <div class="socials">
+    <a href="https://discord.com/users/your-id" target="_blank">
+      <img src="discord.png" alt="Discord" />
+    </a>
+    <a href="https://youtube.com/@yourchannel" target="_blank">
+      <img src="youtube.png" alt="YouTube" />
+    </a>
+    <a href="https://instagram.com/yourhandle" target="_blank">
+      <img src="instagram.png" alt="Instagram" />
+    </a>
+    <a href="https://tiktok.com/@yourhandle" target="_blank">
+      <img src="tiktok.png" alt="TikTok" />
+    </a>
+  </div>
+</body>
+</html>
